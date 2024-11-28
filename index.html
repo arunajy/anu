@@ -1,0 +1,178 @@
+html lang="en">
+<hea<!DOCTYPE html>
+<d>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cloud Nine Kitchen Restaurant</title>
+    <style>
+        /* General Styles */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f1efef;
+        }
+
+        /* Header Section */
+        header {
+            background-color: #4d9763;
+            color: rgb(216, 228, 207);
+            padding: 20px;
+            text-align: center;
+        }
+
+        header h1 {
+            margin: 0;
+        }
+
+        .logo {
+            font-size: 3em;
+            font-weight: bold;
+            letter-spacing: 2px;
+        }
+
+        /* Navigation Bar */
+        nav {
+            background-color: #f0f0f5;
+            display: flex;
+            justify-content: center;
+            padding: 10px;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            padding: 14px 20px;
+            text-align: center;
+            font-size: 16px;
+        }
+
+        nav a:hover {
+            background-color: #ddd;
+            color: black;
+        }
+
+        /* Main Section */
+        .main-content {
+            padding: 20px;
+            text-align: center;
+        }
+
+        .main-content h2 {
+            color: #333;
+            font-size: 2em;
+            margin-bottom: 20px;
+        }
+
+        /* Image Gallery */
+        .gallery {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            margin-top: 20px;
+            flex-wrap: wrap;
+        }
+
+        .gallery img {
+            width: 300px;
+            height: 200px;
+            object-fit: cover;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+
+        /* Contact Section */
+        .contact-form {
+            background-color: #fff;
+            padding: 20px;
+            margin-top: 40px;
+            text-align: center;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .contact-form input[type="text"], 
+        .contact-form input[type="email"], 
+        .contact-form textarea {
+            padding: 10px;
+            margin: 10px;
+            width: 300px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+
+        .contact-form textarea {
+            height: 100px;
+            resize: none;
+        }
+
+        .contact-form input[type="submit"] {
+            background-color: #4CAF50;
+            padding: 10px 20px;
+            color: white;
+            border: none;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+
+        .contact-form input[type="submit"]:hover {
+            background-color: #45a049;
+        }
+
+        /* Footer */
+        footer {
+            text-align: center;
+            padding: 10px;
+            background-color: #333;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Header -->
+    <header>
+        <div class="logo">Cloud Nine Kitchen</div>
+        <h1>Welcome to the Cloud Nine Kitchen Restaurant</h1>
+    </header>
+
+    <!-- Navigation Bar -->
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#menu">Menu</a>
+        <a href="#about">About Us</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <!-- Main Content (Home) -->
+    <div id="home" class="main-content">
+        <h2>Experience Exquisite Dining</h2>
+        <p>We offer an unforgettable culinary experience with a variety of delectable dishes, prepared with the finest ingredients.</p>
+
+        <!-- Image Gallery -->
+        <div class="gallery">
+            <img src="https://kajabi-storefronts-production.kajabi-cdn.com/kajabi-storefronts-production/blogs/17794/images/YA76MlRa2dT66mb8nGmA_Samosa.jpg" alt="Dish 1">
+            <img src="https://img.freepik.com/premium-photo/heavenly-cheesecake-indulgence-pure-bliss-every-bite_1020697-344196.jpg" alt="Dish 2">
+            <img src="https://heartscontentfarmhouse.com/wp-content/uploads/2022/08/black-widow-cocktail-768x1152.jpg" alt="Dish 3">
+            <img src="https://imgmedia.lbb.in/media/2019/10/5db2cf92b491735ea2787059_1571999634625.jpg" alt="Dish 4">
+        </div>
+    </div>
+
+    <!-- Contact Form -->
+    <div id="contact" class="contact-form">
+        <h2>Contact Us</h2>
+        <p>We'd love to hear from you! Please fill out the form below to get in touch.</p>
+        <form>
+            <input type="text" name="name" placeholder="Your Name" required><br>
+            <input type="email" name="email" placeholder="Your Email" required><br>
+            <textarea name="message" placeholder="Your Message" required></textarea><br>
+            <input type="submit" value="Send Message">
+        </form>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 Cloud Nine Kitchen Restaurant | All Rights Reserved</p>
+    </footer>
+
+</body>
+</html>
